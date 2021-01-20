@@ -27,11 +27,11 @@ body{
 }
 .contact-btn a{
     color: rgba(255, 255, 255, 0.596);
-    background: rgba(8, 9, 71, 0.336);
+    background: rgba(8, 9, 71, 0.527);
 }
 .contact-btn a:hover{
     color: rgb(255, 255, 255);
-    background: rgba(8, 9, 71, 0.685);
+    background: rgba(8, 9, 71, 0.856);
 }
 .navbar{
     background-color: white;
