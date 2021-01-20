@@ -210,6 +210,9 @@
     .project-text{
         margin-bottom: -80px;
     }
+    .flickity-page-dots .dot {
+        margin: 0 4px;
+      }
 
 }
 @media only screen and (max-width:400px){
@@ -251,6 +254,9 @@
     .project-text{
         margin-bottom: -30px;
     }
+    .flickity-page-dots .dot {
+        margin: 0 3px;
+      }
 }
 @media only screen and (max-width:230px){
     .name-box img{
@@ -270,4 +276,7 @@
     .contact-btn a{
         font-size: 0.7rem;
     }
+    .flickity-page-dots .dot {
+        margin: 0 2px;
+      }
 }
