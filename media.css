@@ -1,0 +1,273 @@
+
+
+@media only screen and (max-width:1100px){
+  
+    .skills-left{
+        flex-basis: 100%;
+    }
+    .skills-right{
+        flex-basis: 100%;
+    }
+    .skills{
+        flex-direction: column;
+        padding: 0 100px;
+    }
+    .skills-head{
+        margin: 10px 0 20px;   
+    }
+    .skills-bar{
+        margin: 10px 0;
+    }
+    .navbar{
+        width: 220px;
+    }
+    .project-text h1{
+        font-size: 1.8rem;
+    }
+    .project-logo-name{
+        height: 70px;
+        width: 70px;
+        margin: 80px 10px 0;
+    }
+}
+@media only screen and (max-width:1000px){
+    .skills{
+        padding: 0 70px;
+    }
+    .project{
+        width: 80%;
+        margin-bottom: 10px;
+        height: 40vw;
+    }
+    .project-text{
+        bottom: 35vw;
+    }
+}
+@media only screen and (max-width:900px){
+    .skills{
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width:850px){
+    .skills{
+        padding: 0 30px;
+    }
+    .project{
+        
+        margin-bottom: 0;
+    }
+    .navbar{
+        width: 200px;
+    }
+    .project-text h1{
+        font-size: 1.6rem;
+    }
+    .project-text{
+        margin-bottom: -100px;
+    }
+    .project-logo-name{
+        height: 60px;
+        width: 60px;
+        margin: 70px 10px 0;
+        font-size: 0.8rem;
+    }
+   
+}
+@media only screen and (max-width:800px){
+    .name-email{
+        flex-direction: column;
+    }
+    #input-name{
+        width: 100%;
+        margin-right: 0;
+    }
+    #input-email{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:770px){
+    .project{
+        height: 45vw;
+    }
+    .project-text{
+        bottom: 40vw;
+    }
+}
+@media only screen and (max-width:700px){
+    input textarea{
+        padding: 12px;
+        margin: 8px 0;
+    } 
+    .project-text h1{
+        font-size: 1.6rem;
+    }
+    .project-logo-name{
+        height: 50px;
+        width: 50px;
+        margin: 50px 5px 0;
+        font-size: 0.6rem;
+    }
+    .project-text{
+        margin-bottom: -80px;
+    }
+}
+@media only screen and (max-width:600px){
+    .skills{
+        padding: 0 15px;
+    }
+    .skills-head{
+        margin: 5px 0 10px;   
+    }
+    .skills-bar{
+        margin: 5px 0;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact-left{
+        flex-basis: 100%;
+    }
+    .contact-right{
+        flex-basis: 100%;
+        margin-top: 0;
+    }
+    .form-box{
+        margin: 0 20px;
+    }
+    .submit-btn{
+        margin: 10px 0 ;
+    }
+    .contact-head{
+        margin: 10px 0 20px;
+    }
+    .contact-text{
+        text-align: center;
+    }
+
+
+}
+@media only screen and (max-width:500px){
+    .skills{
+        padding: 0 8px;
+    }
+    .skills-head{
+        margin: 0 0 10px;   
+    }
+    .skills-bar{
+        margin: 0;
+    }
+    .project{
+        height: 50vw;
+    }
+    .project-text h1{
+        font-size: 1.5rem;
+    }
+    .project-logo-name{
+        height: 30px;
+        width: 30px;
+        margin: 30px 10px 0;
+        font-size: 0.5rem;
+    }
+    .project-text{
+        margin-bottom: -60px;
+    }
+
+}
+@media only screen and (max-width:400px){
+    .name-box img{
+        height: 200px;
+        width: 200px;
+        margin: 120px 0 30px ;
+    }
+    .my-name{
+        font-size: 1.6rem;
+    }
+    .my-role{
+        font-size: 1.6rem;
+    }
+    .resume-btn{
+        margin-left: 20px;
+    }
+    .skills{
+        padding: 0 4px;
+    }
+    .project{
+        height: 45vw;
+        width: 85%;
+    }
+    .project{
+        height: 55vw;
+    }
+    .project-text h1{
+        font-size: 1rem;
+    }
+    .project-logo-name{
+        height: 20px;
+        width: 20px;
+        margin: 25px 10px 0;
+        font-size: 0.5rem;
+    }
+    .project-text{
+        margin-bottom: -80px;
+    }
+
+}
+@media only screen and (max-width:400px){
+    .project-logo-name{
+        height: 20px;
+        width: 20px;
+        margin: 20px 10px 0;
+        font-size: 0.4rem;
+    }
+    .project-text{
+        margin-bottom: -30px;
+    }
+}
+@media only screen and (max-width:300px){
+    .name-box img{
+        height: 160px;
+        width: 160px;
+        margin: 120px 0 20px ;
+    }
+    .my-name{
+        font-size: 1.3rem;
+    }
+    .my-role{
+        font-size: 1.3rem;
+    }
+    .resume-btn{
+        margin-left: 10px;
+    }
+    .contact-btn a{
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+    .project-logo-name{
+        height: 15px;
+        width: 15px;
+        margin: 15px 10px 0;
+        font-size: 0.3rem;
+    }
+    .project-text{
+        margin-bottom: -30px;
+    }
+}
+@media only screen and (max-width:230px){
+    .name-box img{
+        height: 140px;
+        width: 140px;
+        margin: 120px 0 20px ;
+    }
+    .my-name{
+        font-size: 1.1rem;
+    }
+    .my-role{
+        font-size: 1.1rem;
+    }
+    .resume-btn{
+        margin-left: 10px;
+    }
+    .contact-btn a{
+        font-size: 0.7rem;
+    }
+}

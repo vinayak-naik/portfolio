@@ -1,0 +1,94 @@
+body{
+    background: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    }
+#section-1{
+    border-bottom: 0.3px solid rgb(2, 8, 26);
+    }
+.container{
+    background: transparent;
+}
+/* #section-1{
+    background: url(img/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+} */
+#theme1{
+        border: none;
+    }
+#theme2{
+        border: 2px solid white;
+    }
+.my-name, .my-role{
+    color: white;
+}
+.contact-btn a{
+    color: rgba(255, 255, 255, 0.596);
+    background: rgba(8, 9, 71, 0.336);
+}
+.contact-btn a:hover{
+    color: rgb(255, 255, 255);
+    background: rgba(8, 9, 71, 0.685);
+}
+.navbar{
+    background-color: white;
+}
+nav a{
+    color: rgb(53, 67, 173);
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(221, 221, 221);
+}
+
+
+
+
+
+
+.carousel-cell {
+    background: rgba(255, 255, 255, 0.267);
+  }
+
+
+
+
+
+
+
+  .project-text{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+  input{
+    background: rgba(255, 255, 255, 0.808);
+} 
+textarea{
+    background: rgba(255, 255, 255, 0.801);
+}
+.submit-btn{
+    background: rgba(255, 255, 255, 0.836);
+    color: rgb(73, 73, 73);
+}
+.submit-btn:hover{
+    background: rgba(163, 163, 163, 0.836);
+    color: rgb(255, 255, 255);
+}
+  .contact-right{
+    color: rgb(255, 255, 255);
+}
+.contact-text p:hover{
+    background-color: rgba(255, 255, 255, 0.452);
+}

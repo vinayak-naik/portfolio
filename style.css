@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+
+.main-body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.right{
+    height: 100%;
+    flex-basis: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.container{
+background-color: rgb(187, 187, 187);
+/* background-color: rgb(154, 189, 143); */
+}
+#section-1{
+    width: 100%;
+    border-bottom: 0.3px solid rgb(201, 201, 201);
+}
+.name-box{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name-box img{
+    height: 250px;
+    width: 250px;
+    margin: 120px 0 30px ;
+}
+.my-name{
+    font-size: 2rem;
+    cursor: default;
+}
+.my-role{
+    font-size: 2rem;
+    cursor: default;
+}
+
+.my-role::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: rgb(0, 38, 255);
+    position: relative;
+    display: block;
+    bottom: 2px;
+    transition: 1s linear;
+    margin-left: 8px;
+}
+.my-role:hover:after{
+    width: 96%;
+}
+.contact-btn{
+    margin: 40px 0 100px;
+}
+.contact-btn a{
+    color: rgb(37, 100, 35);
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.13);
+    display: inline-block;
+    text-decoration: none;
+}
+.contact-btn a:hover{
+    background-color: rgba(38, 114, 35, 0.678);
+    color: rgb(255, 255, 255);
+}
+.resume-btn{
+    margin-left: 50px;
+}
+.theme-box{
+    height: 50px;
+    width: 70px;
+    /* background-color: chartreuse; */
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+#theme1, #theme2{
+    background-color: rgb(219, 219, 219);
+    height: 25px;
+    width: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 5px;
+}
+#theme2{
+    background-color: rgb(17, 39, 145);
+    border: none;
+}
+
