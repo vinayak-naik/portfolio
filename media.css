@@ -2,7 +2,7 @@
 
 @media only screen and (max-width:1100px){
   
-    .skills-left{
+    /* .skills-left{
         flex-basis: 100%;
     }
     .skills-right{
@@ -11,13 +11,13 @@
     .skills{
         flex-direction: column;
         padding: 0 100px;
-    }
+    } */
     .skills-head{
         margin: 10px 0 20px;   
     }
-    .skills-bar{
+    /* .skills-bar{
         margin: 10px 0;
-    }
+    } */
     .navbar{
         width: 220px;
     }
@@ -31,9 +31,9 @@
     }
 }
 @media only screen and (max-width:1000px){
-    .skills{
+    /* .skills{
         padding: 0 70px;
-    }
+    } */
     .project{
         width: 80%;
         margin-bottom: 10px;
@@ -43,15 +43,15 @@
         bottom: 35vw;
     }
 }
-@media only screen and (max-width:900px){
+/* @media only screen and (max-width:900px){
     .skills{
         padding: 0 50px;
     }
-}
+} */
 @media only screen and (max-width:850px){
-    .skills{
+    /* .skills{
         padding: 0 30px;
-    }
+    } */
     .project{
         
         margin-bottom: 0;
@@ -110,17 +110,29 @@
     .project-text{
         margin-bottom: -80px;
     }
+    .skills-box{
+        flex-direction: column;
+    }
+    .skills-left{
+        flex-basis: 100%;
+        align-items: flex-start;
+    }
+    .skills-right{
+        flex-basis: 100%;
+        align-items: flex-start;
+    }
+
 }
 @media only screen and (max-width:600px){
-    .skills{
+    /* .skills{
         padding: 0 15px;
-    }
+    } */
     .skills-head{
         margin: 5px 0 10px;   
     }
-    .skills-bar{
+    /* .skills-bar{
         margin: 5px 0;
-    }
+    } */
     .contact{
         flex-direction: column;
     }
@@ -147,15 +159,15 @@
 
 }
 @media only screen and (max-width:500px){
-    .skills{
+    /* .skills{
         padding: 0 8px;
-    }
+    } */
     .skills-head{
         margin: 0 0 10px;   
     }
-    .skills-bar{
+    /* .skills-bar{
         margin: 0;
-    }
+    } */
     .project{
         height: 50vw;
     }
@@ -188,9 +200,9 @@
     .resume-btn{
         margin-left: 20px;
     }
-    .skills{
+    /* .skills{
         padding: 0 4px;
-    }
+    } */
     .project{
         height: 45vw;
         width: 85%;
