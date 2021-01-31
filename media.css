@@ -185,6 +185,10 @@
     .project-text{
         margin-bottom: -60px;
     }
+    .theme-box{
+        top: 8px;
+        right: 5px;
+    }
 
 }
 @media only screen and (max-width:400px){
